@@ -6,8 +6,8 @@
 
 Gem::Specification.new do |s|
   s.name = 'specinfra-backend-docker_nsenter'
-  s.version = '0.1.0.dev'
-  s.date = '2015-11-16'
+  s.version = '0.1.0'
+  s.date = '2015-11-19'
   s.platform = Gem::Platform::RUBY
   s.summary = 'Specinfra Docker nsenter Backend'
   s.description =
