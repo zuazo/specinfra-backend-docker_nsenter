@@ -20,7 +20,7 @@
 require 'spec_helper'
 require 'serverspec'
 
-describe Specinfra::Backend::DockerNsenter do
+describe Specinfra::Backend::DockerNsenter, nsenter: true do
   before(:all) do
     logger = DockerLogger.new
     path = File.join(File.dirname(__FILE__), '..', 'data') do |chunk|

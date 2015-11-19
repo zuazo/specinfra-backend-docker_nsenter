@@ -35,6 +35,7 @@ Specinfra.configuration.backend(:base)
 require 'should_not/rspec'
 
 require 'support/docker_logger'
+require 'support/rspec_filters'
 require 'support/disabled_docker_nsenter'
 require 'support/docker_nsenter_helpers'
 
@@ -48,6 +49,8 @@ RSpec.configure do |config|
 
   config.color = true
   config.tty = true
+
+  config.filter_run_excluding nsenter: true unless nsenter?
 
   config.before(:each) { DockerNsenterHelpers.configuration_reset }
 end
