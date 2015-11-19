@@ -2,7 +2,6 @@
 [![Gem Version](http://img.shields.io/gem/v/specinfra-backend-docker_nsenter.svg?style=flat)](http://badge.fury.io/rb/specinfra-backend-docker_nsenter)
 [![Dependency Status](http://img.shields.io/gemnasium/zuazo/specinfra-backend-docker_nsenter.svg?style=flat)](https://gemnasium.com/zuazo/specinfra-backend-docker_nsenter)
 [![Code Climate](http://img.shields.io/codeclimate/github/zuazo/specinfra-backend-docker_nsenter.svg?style=flat)](https://codeclimate.com/github/zuazo/specinfra-backend-docker_nsenter)
-[![Circle CI](https://circleci.com/gh/zuazo/specinfra-backend-docker_nsenter/tree/master.svg?style=shield)](https://circleci.com/gh/zuazo/specinfra-backend-docker_nsenter/tree/master)
 [![Travis CI](http://img.shields.io/travis/zuazo/specinfra-backend-docker_nsenter.svg?style=flat)](https://travis-ci.org/zuazo/specinfra-backend-docker_nsenter)
 [![Coverage Status](http://img.shields.io/coveralls/zuazo/specinfra-backend-docker_nsenter.svg?style=flat)](https://coveralls.io/r/zuazo/specinfra-backend-docker_nsenter?branch=master)
 [![Inline docs](http://inch-ci.org/github/zuazo/specinfra-backend-docker_nsenter.svg?branch=master&style=flat)](http://inch-ci.org/github/zuazo/specinfra-backend-docker_nsenter)
