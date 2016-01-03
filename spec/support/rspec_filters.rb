@@ -17,8 +17,6 @@
 # limitations under the License.
 #
 
-require 'docker'
-
 def nsenter?
   !`which nsenter`.empty?
 end

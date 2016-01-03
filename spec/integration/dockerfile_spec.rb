@@ -23,10 +23,10 @@ require 'serverspec'
 describe Specinfra::Backend::DockerNsenter, nsenter: true do
   before(:all) do
     logger = DockerLogger.new
-    path = File.join(File.dirname(__FILE__), '..', 'data') do |chunk|
+    path = File.join(File.dirname(__FILE__), '..', 'data')
+    @image = Docker::Image.build_from_dir(path) do |chunk|
       logger.print_chunk(chunk)
     end
-    @image = Docker::Image.build_from_dir(path)
     set :docker_image, @image.id
     set :backend, :docker_nsenter
   end
